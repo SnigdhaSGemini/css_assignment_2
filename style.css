@@ -1,0 +1,22 @@
+h1{background-color: rgb(215, 218, 250); }
+h3{background-color: rgb(250, 241, 250);}
+h6{background-color: rgb(250, 242, 232);}
+strong{background-color: rgb(182, 250, 228);}
+body{font-size: 20px; margin: 0; padding: 0;}
+.rem{ font-size: 1.5rem;}
+.em-p{font-size: 15px;}
+.em-c{font-size: 2em;}
+.px{font-size: 30px;}
+.vh{height: 20vh;}
+.vw{width: 20vw;}
+.cc-t1 p i {color: palevioletred;}
+ u, h5{color:greenyellow;}
+ .combt1 > p{ color: brown;}
+ .combt2 + p {background-color: yellow;}
+ .combt3 ~ p{color: peru;}
+ .transn{width: 100px; height: 100px; background-color: aquamarine; border: 1px solid rgb(9, 243, 165);
+    transition-timing-function: ease-in-out;transition-duration: 1.5s; transition-delay: .1s;}
+.transn:hover{ background-color: plum; border: 1px solid rgb(225, 133, 225);  border-radius: 50%;}
+ .transfm{width: 100px; height: 100px; background-color: aqua; border: 1px solid rgb(7, 98, 98);
+transition-timing-function: linear;transition-duration: 1s; transition-delay: .1s;}
+.transfm:hover{background-color: lightcoral; border: 1px solid rgb(220, 15, 15); transform: rotate(180deg);}
